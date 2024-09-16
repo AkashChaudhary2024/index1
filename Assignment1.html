@@ -1,53 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <title>Document</title>
+  <title>Document</title>
+  <style>
+    div{border:2px solid rgb(201, 17, 17);
+         color: white; height:500px; width: 70%;}
+
+.a{border:2px solid purple; color: white;
+     height:300px; width: 50%; 
+    margin-top: 100px; margin-left: 20%;
+    border-radius: 19px; background: purple;
+}
+.b{ border: 3px white; height: 180px; width: 7%;
+     position: absolute; bottom: 310px; left: 200px;
+     z-index: 1; border-radius: 12px; 
+     border-style:dashed ; background: orange;
+    }
+
+.C{ border: 5px solid yellow; height: 70px;
+     width: 20%; position: absolute; bottom: 290px; left: 250px;
+    z-index: 2; border-radius: 12px;
+      background: rgb(14, 13, 13);
+}
+
+.d{border: 3px solid yellow; height: 180px; width: 7%;
+     position: absolute; bottom: 330px; left: 400px;
+    z-index: 3; border-radius: 12px;
+     background: rgb(18, 224, 214);}
+
+  </style>
 </head>
 <body>
-  
-
-<center></center>
-<table rules="none" bgcolor="#9DBDFF">
-    <form name="form" method="get">
-        <b> Simple Form with Fieldsets </b>
-        <!-- <tr>
-            <td>Simple Form with Fieldsets</td>
-        </tr> -->
-        <br>
-     <fieldset>
-        <legend><b><input type="checkbox" name="C">User Information</b></legend>  
-        <b> First Name:</b>
-        &nbsp
-         <input type="text" name="name"><br><br>
-       <b> Last Name:</b>
-         <input type="text" name="name"><br><br>
-         <b> Company:</b>
-            &nbsp;<input type="text" name="n"><br><br>
-            <b> Email:</b>
-       &nbsp; &nbsp;&nbsp; &nbsp;<input type="Email:" name="Email" required ><br><br>
-    </fieldset>
     
-    <fieldset>  <legend><b><input type="checkbox" name="C">Phone Numbers</b></legend>  
-        <b>Home:</b>&nbsp; &nbsp;&nbsp; &nbsp;
-        <input type="text" name="name"><br><br>
-       
-        <b>Business:</b>&nbsp; &nbsp;
-        <input type="text" name="name"><br><br>
-   
-        <b>  Model:</b>&nbsp; &nbsp;&nbsp;
-           &nbsp;<input type="text" name="n"><br><br>
-       
-           <b> Far:</b>&nbsp; &nbsp;&nbsp;
-      &nbsp; &nbsp;&nbsp; &nbsp;<input type="text" name="f"><br><br>
+<div>
+    <div class="a"></div>
+    <div class="b"> SQUARE 1</div>
+    <div class="C">SQUARE2</div>
+    <div class="d">SQUARE3</div>
+</div>
 
-      &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <input type="Submit" name="n" value="Send">
-      <input type="Submit" name="n" value="cancel">
-      <input type="reset" name="n" value="reset">
-   </fieldset>
-      
-</fieldset>
-</form>
-</table>    
 </body>
 </html>
